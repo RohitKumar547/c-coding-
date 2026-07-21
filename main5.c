@@ -24,7 +24,7 @@ name[strlen(name)-1]='\0';
 
 printf("Name = %s\n",name);
 printf("Age = %d\n",age);
-printf("Cgpa = %f\n",cgpa);
+printf("Cgpa = %.2f\n",cgpa);
 printf("Grade = %c\n",grade);
 
 return 0;
